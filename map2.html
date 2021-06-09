@@ -48,7 +48,7 @@
   dataRange: {
   min : 130,
   show: true,
-  max : 280000,
+  max : 285000,
   y: '60%',
   calculable : true,
   color: ['#ff3333', 'orange', 'yellow','lime','aqua']
@@ -173,7 +173,7 @@
   effect : {
   show: true,
   scaleSize: 1,
-  period: 30,
+  period: 15,
   color: 'blue',
   shadowBlur: 10
   },
@@ -226,7 +226,7 @@
 		    [{name: '英国'}, {name: "西班牙",value: 54774.58}],
 		    [{name: '英国'}, {name: "瑞士",value: 56385.35}],
 		    [{name: '英国'}, {name: "澳大利亚",value: 137077.27}],
-			[{name: '英国'}, {name: "法国",value: 197403.9}],
+			  [{name: '英国'}, {name: "法国",value: 197403.9}],
 		    [{name: '英国'}, {name: "德国",value: 221698.21}],
 		    [{name: '英国'}, {name: "爱尔兰",value: 263276.82}],
 		    [{name: '英国'}, {name: "荷兰",value: 284661.54}]
@@ -235,7 +235,7 @@
   markPoint : {
   symbol:'emptyCircle',
   symbolSize : function (v){
-  return v/7000
+  return v/2
   },
   effect : {
   show: true,
@@ -243,44 +243,46 @@
   },
   itemStyle:{
   normal:{
-  label:{show:false}
+  label:{show:true},
+  color: "yellow",
+  fontSize: 12
   }
   },
   data : [
-  {name: "沙特阿拉伯",value: 131.17},
-  {name: "巴林",value: 548.40},
-  {name: "捷克共和国",value: 707.72},
-  {name: "南非",value: 1002.31},
-  {name: "巴西",value: 1143.60},
-  {name: "立陶宛",value: 1661.06},
-  {name: "美国",value: 1730.92},
-  {name: "黎巴嫩",value: 1693.88},
-  {name: "阿联酋",value: 1902.28},
-  {name: "马耳他",value: 2505.47},
-  {name: "加拿大",value: 3666.38},
-  {name: "冰岛",value: 4310},
-  {name: "希腊",value: 4710.52},
-  {name: "波兰",value: 7213.14},
-  {name: "以色列",value: 7907.82},
-  {name: "新加坡",value: 9120.39},
-  {name: "香港",value: 10117.04},
-  {name: "奥地利",value: 10154.32},
-  {name: "塞浦路斯",value: 12946.29},
-  {name: "意大利",value: 16890.51},
-  {name: "丹麦",value: 18768.14},
-  {name: "芬兰",value: 22326.74},
-  {name: "葡萄牙",value: 29367.02},
-  {name: "挪威",value: 35163.46},
-  {name: "日本",value: 35340.62},
-  {name: "瑞典",value: 36595.91},
-  {name: "比利时",value: 40910.96},
-  {name: "西班牙",value: 54774.58},
-  {name: "瑞士",value: 56385.35},
-  {name: "澳大利亚",value: 137077.27},
-  {name: "法国",value: 197403.9},
-  {name: "德国",value: 221698.21},
-  {name: "爱尔兰",value: 263276.82},
-  {name: "荷兰",value: 284661.54}
+  {name: "沙特阿拉伯",value: 1},
+  {name: "巴林",value: 3},
+  {name: "捷克共和国",value: 1},
+  {name: "南非",value: 1},
+  {name: "巴西",value: 1},
+  {name: "立陶宛",value: 1},
+  {name: "美国",value: 4},
+  {name: "黎巴嫩",value: 1},
+  {name: "阿联酋",value: 2},
+  {name: "马耳他",value: 2},
+  {name: "加拿大",value: 4},
+  {name: "冰岛",value: 1},
+  {name: "希腊",value: 4},
+  {name: "波兰",value: 6},
+  {name: "以色列",value: 4},
+  {name: "新加坡",value: 1},
+  {name: "香港",value: 1},
+  {name: "奥地利",value: 11},
+  {name: "塞浦路斯",value: 8},
+  {name: "意大利",value: 14},
+  {name: "丹麦",value: 9},
+  {name: "芬兰",value: 12},
+  {name: "葡萄牙",value: 20},
+  {name: "挪威",value: 10},
+  {name: "日本",value: 8},
+  {name: "瑞典",value: 8},
+  {name: "比利时",value: 25},
+  {name: "西班牙",value: 30},
+  {name: "瑞士",value: 22},
+  {name: "澳大利亚",value: 9},
+  {name: "法国",value: 88},
+  {name: "德国",value: 94},
+  {name: "爱尔兰",value: 4},
+  {name: "荷兰",value: 9}
   ]
   }
   }
